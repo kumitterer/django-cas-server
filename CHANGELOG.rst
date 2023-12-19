@@ -6,6 +6,13 @@ All notable changes to this project will be documented in this file.
 .. contents:: Table of Contents
    :depth: 2
 
+v12.0.0 - 2023-12-19
+====================
+
+Added
+-----
+* Support for Django 5.0
+
 v2.0.0 - 2022-10-17
 ===================
 
