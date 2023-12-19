@@ -61,11 +61,10 @@ if __name__ == '__main__':
         },
         keywords=['django', 'cas', 'cas3', 'server', 'sso', 'single sign-on', 'authentication', 'auth'],
         install_requires=[
-            'Django >= 1.11,<4.2', 'requests >= 2.4', 'requests_futures >= 0.9.5',
+            'Django >= 1.11', 'requests >= 2.4', 'requests_futures >= 0.9.5',
             'lxml >= 3.4', 'six >= 1'
         ],
-        url="https://github.com/nitmir/django-cas-server",
-        download_url="https://github.com/nitmir/django-cas-server/releases/latest",
+        url="https://kumig.it/kumitterer/django-cas-server",
         zip_safe=False,
         setup_requires=['pytest-runner'],
         tests_require=['pytest', 'pytest-django', 'pytest-pythonpath', 'pytest-warnings', 'mock>=1'],
